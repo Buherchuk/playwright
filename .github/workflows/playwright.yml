@@ -1,9 +1,9 @@
-name: Playwright Tests
+name: Playwright Tests for Sample1 project
 on:
-  push:
-    branches: [ main, master ]
+  # push:
+  #   branches: [ gh-pages, automation-branch ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ gh-pages, automation-branch ]
 jobs:
   test:
     timeout-minutes: 60
